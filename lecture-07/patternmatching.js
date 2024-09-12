@@ -24,3 +24,18 @@ console.log(newStr); // "I love Java! I like Java"
 let str3 = "I love JavaScript! I like JavaScript";
 let regex3 = /JavaScript/;
 console.log(str3.search(regex)); //output: 7
+
+
+//exec method
+let strr = "The number is 12345.";
+let regexx = /\d+/;
+let resultt = regexx.exec(strr);
+console.log(resultt); // ["12345", index: 13, input: "The number is 12345.", groups: undefined]
+
+//test method
+let regex4 = /JavaScript/;
+let str4 = "I love JavaScript!";
+let str5 = "I love Python!";
+
+console.log(regex.test(str4)); // true
+console.log(regex.test(str5)); // false
