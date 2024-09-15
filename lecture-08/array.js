@@ -23,3 +23,21 @@ const arr5 = new Array(5)
 console.log(arr5.fill(0)) // [ 0, 0, 0, 0, 0 ]
 console.log(arr5.fill(1, 1)) // [ 0, 1, 1, 1, 1 ]
 console.log(arr5.fill(2, 2, 5)) // [ 0, 1, 2, 2, 2 ]
+
+// Get an element in array using index
+const arr6 = [1,2, [3, 'a', ['b', 'c', 4]]] // mixed array
+console.log(arr6[1]) // 2
+console.log(arr6[2][1]) // a
+// explanation: `arr6[2]` = [3, 'a', ['b', 'c', 4]]
+//              `arr6[2][1]` = [3, 'a', ['b', 'c', 4]][1] = 'a'
+console.log(arr6[2][2][2]) // 4
+// explanation: `arr6[2]` = [3, 'a', ['b', 'c', 4]]
+//              `arr6[2][2]` = ['b', 'c', 4]
+//              `arr6[2][2][2]` = ['b', 'c', 4][2] = 4
+
+// Modify an element in array
+const arr7 = [1, 2, 'quoc', 'phu']
+arr7[1] = arr7[1] + 1
+console.log(arr7) // [ 1, 3, 'quoc', 'phu' ]
+arr7[2] = arr7[2] + ' love vy'
+console.log(arr7) // [ 1, 3, 'quoc love vy', 'phu' ]
