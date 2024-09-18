@@ -22,7 +22,7 @@ function numberGenerator() {
     };
   }
   
-  const counter = outer();
+  // const counter = outer();
   console.log(counter());  // Output: 1
   console.log(counter());  // Output: 2
 
@@ -39,3 +39,13 @@ function numberGenerator() {
   console.log(increment()); // 1
   console.log(increment()); // 2
   
+//Settimeout
+
+function greet(name) {
+  setInterval(function() {
+    console.log("Hello, " + name);
+  }, 2000);
+}
+
+greet("Quốc");
+
