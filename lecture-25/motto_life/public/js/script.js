@@ -12,14 +12,14 @@ const API_URL = "https://dummyjson.com/quotes/random"; // Define the URL for the
 const fetchQuote = async () => { // 3. Define fetchQuote as an async function
     try {
         // step 1: Call the API and waiting for a response
-        const resp = await fetch(API_URL); // 4. Fetch data from the defined API URL
+        const resp = await fetch(API_URL); // Fetch data from the defined API URL
         // step 2: Convert the response to JSON format
-        const data = await resp.json(); // 5. Convert the API response to a JSON object
+        const data = await resp.json(); //Convert the API response to a JSON object
         // step 3: Call the displayQuote function to render the data on the page
         displayQuote(data); // pass the data fetched from the API to the displayQuote function
     } catch (error) {
         // step 4: Catch and handle any errors
-        console.error('Error fetching data:', error); // 7. Log an error message if fetching fails
+        console.error('Error fetching data:', error); //Log an error message if fetching fails
     }
 };
 
