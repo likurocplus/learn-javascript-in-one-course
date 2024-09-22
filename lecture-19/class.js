@@ -96,5 +96,4 @@ function Blockchain(name,symbol) {
 }
 
 let SolanaChain = new Blockchain("Solana","SOL");
-Blockchain.prototype.gas = 0.0001;
-console.log(`${SolanaChain.gas} SOL`); //0.0001 SOL
+console.log(SolanaChain instanceof Blockchain); //true
