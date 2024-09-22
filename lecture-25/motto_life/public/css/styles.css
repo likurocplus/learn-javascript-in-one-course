@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('../img/1336966.jpeg');
+    background-size: 100%;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px 200px 100px;
+}
+.double-quote{
+    width: 100px;
+    height: auto;
+    padding: 0px;
+}
+
+#quote {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 25px;
+    color: white;
+}
+#author {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+
+#fetch-quote{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+    position: fixed;
+    bottom: 20px; /* Cách đáy màn hình 20px */
+    right: 20px; /* Cách cạnh phải màn hình 20px */
+    padding: 10px 20px; /* Khoảng cách bên trong nút */
+}
