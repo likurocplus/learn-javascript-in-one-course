@@ -1,0 +1,12 @@
+{
+  "name": "lecture-23",
+  "version": "1.0.0",
+  "main": "exportCommon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
