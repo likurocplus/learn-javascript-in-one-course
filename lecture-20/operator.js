@@ -30,3 +30,10 @@ const obj1 = {
   }
   console.log('a' in obj1) // true
   console.log('d' in obj1) // false
+
+
+const developer = {
+  name: "Luong Vo Khoi Quoc",
+  role: "Intern"
+}
+console.log(developer.hasOwnProperty("name")) //true
