@@ -2,9 +2,18 @@ if(1 > 2) {
     console.log("Your crush will confess to you");
 } else if (2 > 2) {
     console.log("Your crush will love you");
+} else if (3 > 2) {
+    if (isRich==true) {
+      if (isGoodBoy==true) {
+        if (isHotBoy==true) {
+          console.log("Your crush's crush is you =))))")
+        }
+      }
+    }
 } else {
     console.log("We are good friends!!!");
 }
+
 
 
 // Conditional statement: switch... case
